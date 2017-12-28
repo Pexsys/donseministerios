@@ -1,0 +1,226 @@
+/* ActiveBorder, ActiveCaption, AppWorkspace, Background, ButtonFace, ButtonHighlight, ButtonShadow, ButtonText, CaptionText, GrayText, 
+Highlight, HighlightText, InactiveBorder, InactiveCaption, InactiveCaptionText, InfoBackground, InfoText, Menu, MenuText, Scrollbar, 
+ThreeDDarkShadow, ThreeDFace, ThreeDHighlight, ThreeDLightShadow, ThreeDShadow, Background, WindowFrame, WindowText */
+BODY{
+	margin: 0px;
+	font-family:Verdana;
+	font-size:10px;
+}
+BODY.cssRel{
+	margin: 0px;
+}
+FORM{
+	margin: 0px;
+	padding: 0px;
+	display: inline;
+}
+LABEL.input{
+	font-size: 11px;
+	font-weight: bold;
+	font-family: Arial;
+	color: WindowText;
+	height: 10px;
+}
+INPUT{
+	padding-right: 3px;
+	padding-bottom: 1px;
+	padding-left: 2px;
+	padding-top: 1px;
+	border: 1px solid #000000;
+	font-family: 'Courier New', Arial;
+	font-size: 11px;
+	height: 15pt;
+	background-color:#FFFFEA;
+	color: #000000;
+}
+SELECT{
+	padding-right: 3px;
+	padding-bottom: 1px;
+	padding-left: 2px;
+	padding-top: 1px;
+	font-family: 'Courier New', Arial;
+	border: 1px solid #000000;
+	font-size: 11px;
+	height: 15pt;
+	background-color: #FFFFEA;
+	color: #000000;
+}
+SELECT.blank{
+	padding-right: 3px;
+	padding-bottom: 1px;
+	padding-left: 2px;
+	padding-top: 1px;
+	font-family: 'Courier New', Arial;
+	border: 1px solid #FF0000;
+	font-size: 11px;
+	height: 15pt;
+	background-color: #FFFFEA;
+	color: #000000;
+}
+TEXTAREA{
+	padding-right: 3px;
+	padding-bottom: 1px;
+	padding-left: 2px;
+	padding-top: 1px;
+	border: 1px solid #000000;
+	font-family: 'Courier New', Arial;
+	font-size: 11px;
+	background-color: #FFFFEA;
+	color: #000000;
+}
+INPUT.optChk{
+	border: none;
+	background-color: transparent;
+	height: 15pt;
+}
+TABLE.tblFrame{
+	border: 1px outset;
+	background-color: ThreeDFace;
+}
+TD.tdCaption{
+	padding-left: 5px;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	height: 25px;
+	font-size: 13pt;
+	font-weight: bolder;
+	font-family: Arial;
+	vertical-align: middle;
+	text-align: left;
+	background-color: #0000ff;
+	color: #ffffff;
+	border-bottom: 1px inset #000000;
+}
+TABLE.tblBotao{
+	background-color: ButtonFace;
+}
+TD.tdBotao{
+	padding-left: 8px;
+	padding-right: 8px;
+	height: 22px;
+	font-size: 11px;
+	font-weight: bold;
+	font-family: Tahoma, Arial;
+	vertical-align: middle;
+	text-align: center;
+	border: 1px solid ButtonFace;
+	cursor: default;
+}
+TD.tdBotao:hover{
+	padding-left: 8px;
+	padding-right: 8px;
+	height: 22px;
+	font-size: 11px;
+	font-weight: bold;
+	font-family: Tahoma, Arial;
+	vertical-align: middle;
+	text-align: center;
+	border-left: 1px solid ButtonHighlight;
+	border-top: 1px solid ButtonHighlight;
+	border-bottom: 1px solid ButtonShadow;
+	border-right: 1px solid ButtonShadow;
+	cursor: pointer;
+}
+TD.THeader{
+	padding: 5px;
+	font-size: 12pt;
+	font-family: Arial;
+	font-weight: bolder;
+	vertical-align: middle;
+	background-color: #000000;
+	color: #ffffff;
+}
+TD.THMinistries{
+	padding: 5px;
+	font-size: 12pt;
+	font-family: Arial;
+	font-weight: bolder;
+	vertical-align: middle;
+	background-color: #606060;
+	color: #ffffff;
+}
+TD.SubHeader{
+	padding: 4px;
+	vertical-align: middle;
+	background-color:ThreeDDarkShadow;
+}
+TD.LstLight{
+	padding: 4px;
+	font-size: 12pt;
+	font-family: Arial;
+	vertical-align: middle;
+	background-color: #F3F3F3;
+	color: #000000;
+}
+TD.LstDark{
+	padding: 4px;
+	font-size: 12pt;
+	font-family: Arial;
+	vertical-align: middle;
+	background-color: #E0E0E0;
+	color: #000000;
+}
+TD.LstOver{
+	padding: 4px;
+	font-size: 12pt;
+	font-family: Arial;
+	vertical-align: middle;
+	background-color: #C0C0C0;
+	color: #000000;
+	cursor: pointer;
+}
+TD.LstOver{
+	padding: 4px;
+	font-size: 12pt;
+	font-family: Arial;
+	vertical-align: middle;
+	background-color: #C0C0C0;
+	color: #000000;
+	cursor: pointer;
+}
+TD.resultTitle{
+	padding: 1px;
+	font-size: 10pt;
+	font-family: Arial;
+	font-weight: bolder;
+	vertical-align: middle;
+	background-color: #000000;
+	color: #ffffff;
+}
+TD.resultSubTitle{
+	padding: 1px;
+	font-size: 10pt;
+	font-family: Arial;
+	font-weight: bolder;
+	vertical-align: middle;
+	background-color: #808080;
+	color: #ffffff;
+}
+.makeImgEnabled {
+	border: none;
+	vertical-align: bottom;
+	cursor: pointer;
+}
+TR.selectable{
+	cursor: pointer;
+}
+p {
+	font-family: Verdana, Arial, Helvetica; 
+	font-size: 12px; 
+	text-decoration: none; 
+}
+a {
+	text-decoration:none;
+}
+.pgdis {font-family: Verdana, Arial, Helvetica; font-size: 12pt; color: #CCCCCC; text-decoration: none; font-weight: bold;padding: 4px;}
+
+span.pg {font-family: Verdana, Arial, Helvetica; font-size: 12pt; color: #FFFFFF; text-decoration: none; font-weight: bold;padding: 4px;cursor: pointer;}
+span.exit {font-family: Verdana, Arial, Helvetica; font-size: 12pt; color: #FFFF00; text-decoration: none; font-weight: bold;cursor: pointer;}
+
+.pgoffRed {font-family: Verdana, Arial, Helvetica; font-size: 15pt; color: #FF0000; text-decoration: none; font-weight: bold;padding: 4px;cursor: pointer;}
+span.pgRed {font-family: Verdana, Arial, Helvetica; font-size: 12pt; color: #FF0000; text-decoration: none; font-weight: bold;padding: 4px;cursor: pointer;}
+span:hover.pgRed {font-family: Verdana, Arial, Helvetica; font-size: 12pt; color: #FF0000; text-decoration:underline; font-weight: bold;padding: 4px;cursor: pointer;}
+
+.pgoffGreen{font-family: Verdana, Arial, Helvetica; font-size: 15pt; color: #00FF00; text-decoration: none; font-weight: bold;padding: 4px; cursor: pointer;}
+span.pgGreen{font-family: Verdana, Arial, Helvetica; font-size: 12pt; color: #00FF00; text-decoration: none; font-weight: bold;padding: 4px; cursor: pointer;}
+span:hover.pgGreen {font-family: Verdana, Arial, Helvetica; font-size: 12pt; color: #00FF00; text-decoration:underline; font-weight: bold;padding: 4px; cursor:pointer;}
